@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Currency_Converter",
+    "version": "1.0",
+  
+    "description": "Helps convert Foreign currencies to desired currency easily and quickly .",
+  
+    "icons": {
+      "96": "2.jpg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["curr_calci.js"]
+      }
+    ]
+  
+  }
